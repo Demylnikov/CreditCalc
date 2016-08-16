@@ -107,7 +107,7 @@ public class MainActivity extends AppCompatActivity {
             double tilgung = payment - (creditSum*(zinsen/100))/12;
             creditSum = creditSum - tilgung;
             months++;
-            System.out.println(months + " Restbatrag " + round(creditSum,2) + "Tilgung" + round(tilgung,2) + " Zinsen " + round((payment-tilgung),2));
+            //System.out.println(months + " Restbatrag " + round(creditSum,2) + "Tilgung" + round(tilgung,2) + " Zinsen " + round((payment-tilgung),2));
             List_file.add(months + " Restbetrag " + round(creditSum,2) + " Tilgung " + round(tilgung,2) + " Zinsen " + round((payment-tilgung),2));
         }
 
