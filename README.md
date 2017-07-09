@@ -1,3 +1,4 @@
 # CreditCalc
 
-Mortgage calculator for android 4.1 and up
+Mortgage calculator. Displays monthly breakdown of mortgage, duration time and expected completion time.
+Android 4.1+
